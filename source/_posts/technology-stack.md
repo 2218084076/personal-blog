@@ -2,6 +2,7 @@
 title: Technology stack
 date: 2023年5月22日 18点11分
 tags: '技术栈梳理'
+categories: Technology stack
 ---
 This article lists the technical stacks I am familiar with and use
 

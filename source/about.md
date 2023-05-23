@@ -2,6 +2,7 @@
 title: About
 date: 2023年5月22日 18点07分
 tags: about
+categories: about
 ---
 
 ## About
