@@ -15,7 +15,9 @@ keywords:
   - 'k8s'
   - 'python web开发'
 author: Terry.Linbo
-language: zh-CN
+language:
+  - zh-CN
+  - en
 timezone: 'Asia/Shanghai'
 
 # URL
