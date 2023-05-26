@@ -24,25 +24,25 @@ This article lists the technical stacks I am familiar with and use
 ## 前端
 
 - 语言
-    - Ts
-    - Js
-    - coffee
-    - Html
+  - Ts
+  - Js
+  - coffee
+  - Html
 - 框架
-    - react
-    - antd
-    - 飞冰
+  - react
+  - antd
+  - 飞冰
 
 ## 艺术设计
 
 - 3D
-    - 360
+  - 360
 - adobe
-    - Ps
-    - Pr
-    - Au
-    - Ai
-    - …
+  - Ps
+  - Pr
+  - Au
+  - Ai
+  - …
 
 ## 云原生
 
