@@ -31,7 +31,7 @@ categories: about
 
 #### 其他
 
-- sdk开发
+- sdk 开发
 
 ### 工作经历
 
