@@ -1,5 +1,5 @@
 ---
-title: pycharm 打开项目时 "Server's certificate is not trusted" 弹窗问题解决
+title: 【解决】pycharm 打开项目时 "Server's certificate is not trusted" 弹窗问题
 date: 2023-05-30 10:53:56
 tags: "Idea pycharm 工具使用"
 categories: "pycharm"
