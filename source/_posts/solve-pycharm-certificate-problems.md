@@ -1,5 +1,5 @@
 ---
-title: pycharm "Server's certificate is not trusted" 问题解决
+title: pycharm 打开项目时 "Server's certificate is not trusted" 弹窗问题解决
 date: 2023-05-30 10:53:56
 tags: "Idea pycharm 工具使用"
 categories: "pycharm"
@@ -13,7 +13,7 @@ categories: "pycharm"
 
 在使用 pycharm 打开项目文件时，会出现一下提示框
 
-![Solve pycharm certificate problems](../.project_images/solve-pycharm-certificate-problems/d7278c9a.png "Solve pycharm certificate problems")
+![Solve pycharm certificate problems](https://raw.githubusercontent.com/2218084076/personal-blog/main/source/image/d7278c9a.png)
 
 ## 解决
 
@@ -21,7 +21,7 @@ categories: "pycharm"
 
 `Files` -> `Settings` -> `Tools` -> `Server Certificates` -> 勾选 `Accept non-trusted certificates automatically`
 
-![](../.project_images/solve-pycharm-certificate-problems/8028820d.png)
+![8028820d.png](https://raw.githubusercontent.com/2218084076/personal-blog/main/source/image/8028820d.png)
 
 此时，再打开 pycharm 就不会再弹出上述异常了
 
