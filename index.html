@@ -86,10 +86,67 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-solve-pycharm-certificate-problems" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/personal-blog/2023/05/30/solve-pycharm-certificate-problems/" class="article-date">
+  <time class="dt-published" datetime="2023-05-30T02:53:56.000Z" itemprop="datePublished">2023-05-30</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/personal-blog/categories/pycharm/">pycharm</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/personal-blog/2023/05/30/solve-pycharm-certificate-problems/">Pycharm &#34;Server&#39;s Certificate Is Not Trusted&#34; 问题解决</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p><a target="_blank" rel="noopener" href="https://github.com/2218084076"><img src="https://img.shields.io/badge/github-Terry-brightgreen.svg?style=social" alt="github"></a></p>
+<blockquote>
+<p>解决 windows 下 pycharm 启动出现 <code>Server&#39;s certificate is not trusted</code> 提示框的问题</p>
+</blockquote>
+<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>在使用 pycharm 打开项目文件时，会出现一下提示框</p>
+<p><img src="/personal-blog/../.project_images/solve-pycharm-certificate-problems/d7278c9a.png" alt="Solve pycharm certificate problems" title="Solve pycharm certificate problems"></p>
+<h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>为了摆脱这种情况，我们需要让 Idea 自动接受不受信任的证书。</p>
+<p><code>Files</code> -&gt; <code>Settings</code> -&gt; <code>Tools</code> -&gt; <code>Server Certificates</code> -&gt; 勾选 <code>Accept non-trusted certificates automatically</code></p>
+<p><img src="/personal-blog/../.project_images/solve-pycharm-certificate-problems/8028820d.png"></p>
+<p>此时，再打开 pycharm 就不会再弹出上述异常了</p>
+<h2 id="什么是服务器证书（Server’s-certificate）"><a href="#什么是服务器证书（Server’s-certificate）" class="headerlink" title="什么是服务器证书（Server’s certificate）"></a>什么是服务器证书（Server’s certificate）</h2><p>服务器证书在建立安全通信时起着重要的作用。当客户端（例如浏览器）与服务器建立安全连接时，<br>服务器会向客户端发送其证书。客户端收到证书后，会验证证书的有效性，以确保正在连接的服务器是合法可信的。</p>
+<p>当网站或应用程序处理您的数据的方式存在某些异常时，通常会触发 <code>不受信任的服务器证书</code> 错误。<br>当您的网络配置不正确时，通常会发生这种情况。</p>
+<p>在当今居家办公越来越普遍的环境中，WiFi 或 VPN 连接也往往会导致此错误。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://2218084076.github.io/personal-blog/2023/05/30/solve-pycharm-certificate-problems/" data-id="cli9qzpcy0001bcoy0v2q1isd" data-title="Pycharm &#34;Server&#39;s Certificate Is Not Trusted&#34; 问题解决" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/personal-blog/tags/idea-pycharm-%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/" rel="tag">Idea pycharm 工具使用</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-technology-stack" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/personal-blog/2023/05/30/technology-stack/" class="article-date">
-  <time class="dt-published" datetime="2023-05-30T01:29:59.199Z" itemprop="datePublished">2023-05-30</time>
+    <a href="/personal-blog/2023/05/28/technology-stack/" class="article-date">
+  <time class="dt-published" datetime="2023-05-28T02:53:56.000Z" itemprop="datePublished">2023-05-28</time>
 </a>
     
   <div class="article-category">
@@ -104,7 +161,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/personal-blog/2023/05/30/technology-stack/">个人技术栈梳</a>
+      <a class="p-name article-title" href="/personal-blog/2023/05/28/technology-stack/">个人技术栈梳</a>
     </h1>
   
 
@@ -152,6 +209,10 @@
 </ul>
 </li>
 </ul>
+<h2 id="云原生"><a href="#云原生" class="headerlink" title="云原生"></a>云原生</h2><ul>
+<li>docker</li>
+<li>k8s</li>
+</ul>
 <h2 id="艺术设计"><a href="#艺术设计" class="headerlink" title="艺术设计"></a>艺术设计</h2><ul>
 <li>3D<ul>
 <li>fusion 360</li>
@@ -166,15 +227,11 @@
 </ul>
 </li>
 </ul>
-<h2 id="云原生"><a href="#云原生" class="headerlink" title="云原生"></a>云原生</h2><ul>
-<li>docker</li>
-<li>k8s</li>
-</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://2218084076.github.io/personal-blog/2023/05/30/technology-stack/" data-id="cli9lq25z0001c6onb8zzg67g" data-title="个人技术栈梳" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://2218084076.github.io/personal-blog/2023/05/28/technology-stack/" data-id="cli9qzpd30003bcoy2zdt8f04" data-title="个人技术栈梳" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -198,7 +255,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">分类</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/personal-blog/categories/technology-stack/">Technology stack</a></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/personal-blog/categories/technology-stack/">Technology stack</a></li><li class="category-list-item"><a class="category-list-link" href="/personal-blog/categories/pycharm/">pycharm</a></li></ul>
     </div>
   </div>
 
@@ -208,7 +265,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/personal-blog/tags/%E6%8A%80%E6%9C%AF%E6%A0%88%E6%A2%B3%E7%90%86/" rel="tag">技术栈梳理</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/personal-blog/tags/idea-pycharm-%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/" rel="tag">Idea pycharm 工具使用</a></li><li class="tag-list-item"><a class="tag-list-link" href="/personal-blog/tags/%E6%8A%80%E6%9C%AF%E6%A0%88%E6%A2%B3%E7%90%86/" rel="tag">技术栈梳理</a></li></ul>
     </div>
   </div>
 
@@ -218,7 +275,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/personal-blog/tags/%E6%8A%80%E6%9C%AF%E6%A0%88%E6%A2%B3%E7%90%86/" style="font-size: 10px;">技术栈梳理</a>
+      <a href="/personal-blog/tags/idea-pycharm-%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/" style="font-size: 10px;">Idea pycharm 工具使用</a> <a href="/personal-blog/tags/%E6%8A%80%E6%9C%AF%E6%A0%88%E6%A2%B3%E7%90%86/" style="font-size: 10px;">技术栈梳理</a>
     </div>
   </div>
 
@@ -240,7 +297,11 @@
       <ul>
         
           <li>
-            <a href="/personal-blog/2023/05/30/technology-stack/">个人技术栈梳</a>
+            <a href="/personal-blog/2023/05/30/solve-pycharm-certificate-problems/">Pycharm &#34;Server&#39;s Certificate Is Not Trusted&#34; 问题解决</a>
+          </li>
+        
+          <li>
+            <a href="/personal-blog/2023/05/28/technology-stack/">个人技术栈梳</a>
           </li>
         
       </ul>
