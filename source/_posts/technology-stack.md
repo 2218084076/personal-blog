@@ -1,12 +1,14 @@
 ---
 title: 个人技术栈梳
-date: 2023-05-28 10:53:56
+date: 2023-05-31 10:53:56
 tags: "技术栈梳理"
 categories: Technology stack
 description: 个人技术栈梳理 This article lists the technical stacks I am familiar with and use
 ---
 
 [![github](https://img.shields.io/badge/github-Terry-brightgreen.svg?style=social)](https://github.com/2218084076)
+[![](https://img.shields.io/badge/WeChat-Terry📷-success.svg?style=flat)](https://raw.githubusercontent.com/2218084076/personal-blog/main/img/WeChat.jpg)
+![Terry-Email](https://img.shields.io/badge/Email-17601306065@163.com-red.svg?style=flat)
 
 This article lists the technical stacks I am familiar with and use
 
