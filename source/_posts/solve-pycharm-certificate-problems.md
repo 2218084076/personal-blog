@@ -2,7 +2,7 @@
 title: 【解决】pycharm 打开项目时 "Server's certificate is not trusted" 弹窗问题
 date: 2023-05-30 10:53:56
 tags: "Idea 工具使用"
-categories: "pycharm"
+categories: "技术工具"
 description: 解决 windows 下 pycharm 启动出现 `Server's certificate is not trusted` 提示框的问题
 ---
 

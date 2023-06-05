@@ -5,7 +5,7 @@
 # Site
 title: Terry's blog
 subtitle: "Wang Linbo personal blog"
-description: "Hi~ 我是 Terry，一位入行一年的全栈开发工程师"
+description: "全栈开发工程师💻 摄影师📷"
 keywords:
   - "python"
   - "爬虫"
@@ -22,7 +22,7 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://2218084076.github.io/personal-blog/
+url: https://2218084076.github.io/personal-blog
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -108,7 +108,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: anzhiyu
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
