@@ -1,0 +1,1 @@
+var posts=["2023/05/31/technology-stack/","2023/05/30/solve-pycharm-certificate-problems/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
