@@ -24,6 +24,6 @@
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
-    "prettier": "^2.8.8"
+    "prettier": "^3.0.0"
   }
 }
